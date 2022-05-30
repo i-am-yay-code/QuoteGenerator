@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Quote Generator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="quote__container">
+            <div class="quote__text">
+                <span>"</span>
+                <b id="js-quote-text">There will be a quote </b>
+                <span>"</span>
+            </div>
+            <div class="author__container">
+                <b id="js-quote-author" class="quote__author">Name</b>
+            </div>
+        </div>
+        <div class="button__container">
+            <button type="button" id="js-new-quote" class="new-quote button">
+                Generate a new quote
+            </button>
+            <button type="button" id="js-twitter" class="twitter button">
+                Tweet it!
+            </button>
+        </div>
+        <footer class="footer">
+
+        </footer>
+    </div>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
