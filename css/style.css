@@ -154,10 +154,44 @@ body {
   margin-bottom: 50px;
 }
 
+.twitter > div {
+  font-weight: 400;
+  font-size: 24px;
+  padding-top: 10px;
+}
+
 .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 80px;
           flex: 0 0 80px;
   width: 100%;
   background: #0077b6;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icon__container {
+  padding-left: 90px;
+}
+
+.icon {
+  fill: #fff;
+  margin-right: 10px;
+}
+
+.name__link {
+  color: #fff;
+}
+
+.name {
+  font-family: 'Inconsolata', monospace;
+  font-size: 24px;
 }

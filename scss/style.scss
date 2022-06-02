@@ -76,13 +76,44 @@ body {
 .new-quote {}
 
 .twitter {
+
     background: #48cae4;
     margin-bottom: 50px;
 }
 
+.twitter>div {
+    font-weight: 400;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
 .footer {
+    display: flex;
+    flex-direction: row;
     flex: 0 0 80px;
     width: 100%;
-
     background: #0077b6;
+    align-items: center;
+}
+
+.icon__container {
+    padding-left: 90px;
+}
+
+.icon {
+    fill: #fff;
+    margin-right: 10px;
+}
+
+.icon__link {}
+
+.name__container {}
+
+.name__link {
+    color: #fff;
+}
+
+.name {
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
 }
